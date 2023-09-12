@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 confirmButtonText: 'OK'
               });
         } else {
-            fetch(`http://localhost:3000/get-quote/${theme}`)
+            fetch(`https://quote-generator-lhbc.onrender.com/get-quote/${theme}`)
             .then((response) => response.json())
             .then((data) => {
                 // Append the generated quote to the quote container
