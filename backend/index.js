@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/get-quote/:theme", async (req, res) => {
     try {
         const theme = req.params.theme;
-        const apiKey = process.env.apiKey;
+        const apiKey = process.env.apikey;
 
         // Make a GET request to OpenAI to fetch a random quote
         const response = await axios.post(
