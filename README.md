@@ -1,2 +1,2 @@
-# Quote-Genera
+# Quote-Generator
 
