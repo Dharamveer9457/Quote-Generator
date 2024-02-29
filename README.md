@@ -1,2 +1,2 @@
-# Quote-Generato
+# Quote-Generat
 
